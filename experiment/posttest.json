@@ -2,38 +2,55 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "SN2 reaction involving chiral electrophiles usually proceed with:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Inversion of configuration",
+        "b": "Slightly more retention than inversion",
+        "c": "Slightly more inversion than retention",
+        "d": "Retention of configuration"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "SN2 reactions involve backside attack, leading to inversion.",
+        "b": "Incorrect; inversion dominates.",
+        "c": "SN1 reactions may show slight inversion or retention, but not SN2.",
+        "d": "Incorrect; SN2 causes inversion."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Arrange the following in decreasing order of leaving group ability:\na) Br⁻\nb) F⁻\nc) I⁻\nd) Cl⁻",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "d > b > c > a",
+        "b": "c > b > d > a",
+        "c": "c > a > d > a",
+        "d": "a > b > d > c"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect; F⁻ is a poor leaving group.",
+        "b": "Incorrect; I⁻ is the best leaving group but F⁻ is worst.",
+        "c": "c > a > d > b is more plausible.",
+        "d": "Incorrect; Cl⁻ is not better than I⁻."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following does NOT convert a 1°-hydroxyl group into a good leaving group for an SN2 reaction?",
+      "answers": {
+        "a": "PBr₃",
+        "b": "NaI",
+        "c": "SOCl₂",
+        "d": "CH₃SO₂Cl"
+      },
+      "explanations": {
+        "a": "PBr₃ converts OH into Br, a good leaving group.",
+        "b": "NaI does not directly activate OH groups.",
+        "c": "SOCl₂ converts OH into Cl, a good leaving group.",
+        "d": "CH₃SO₂Cl forms mesylates, which are excellent leaving groups."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }
