@@ -2,37 +2,37 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Rank the species below in order of increasing nucleophilicity in hydroxylic solvents:\na) CH₃COO⁻\nb) CH₃S⁻\nc) OH⁻\nd) H₂O",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "c < a < d < b",
+        "b": "d < a < c < b",
+        "c": "a < b < c < d",
+        "d": "b < a < d < c"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This option implies CH₃S⁻ is the most nucleophilic, which is generally true in protic solvents.",
+        "b": "This option suggests water is the least nucleophilic.",
+        "c": "Incorrect order; H₂O is generally less nucleophilic than OH⁻.",
+        "d": "Incorrect; CH₃COO⁻ is less nucleophilic than CH₃S⁻ or OH⁻."
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following compounds is most nucleophilic?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "CH₃OH",
+        "b": "CH₃COOH",
+        "c": "CH₄",
+        "d": "H₂O"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Methanol has lone pairs but is less nucleophilic due to hydrogen bonding.",
+        "b": "Acetic acid is weakly nucleophilic due to resonance stabilization.",
+        "c": "Methane is not nucleophilic; it lacks lone pairs.",
+        "d": "Water is more nucleophilic than alcohol in many cases due to less steric hindrance."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
